@@ -7,14 +7,11 @@
 .discover {
     max-width: 37%;
 }
-.btn-primary {
+.btn-primary, .bg-register {
     background: #289BDE;
 }
 .text-primary {
      color: #289BDE !important;
-}
-.bg-register {
-    background: #289BDE;
 }
 .sm-view {
     display: none;
@@ -59,70 +56,8 @@
 .p-130 {
     padding: 130px;
 }
-
-
-/*--------------------------------- 
-        Extra Small Devices 
-----------------------------------*/
-
-
-@media only screen and (max-width: 260px) {
-    .carousel-control-prev {
-        display: none;
-    }
-    .carousel-control-next {
-        display: none;
-    }
-    .discover {
-        max-width: 90%;
-    }
-    .sm-view {
-        display: revert;
-    }
-    .lg-view {
-        display: none;
-    }
-    .courses:nth-last-child(-n+3) {
-        display: none;
-    }
-    .sm-view:focus .courses:nth-last-child(-n+3) {
-        display: revert;
-    }
-    .card-p {
-        padding: 0;
-    }
-    .text-hidden {
-        display: none;
-    }
-    .see-more {
-        display: revert;
-    }
-    .see-more::before {
-        content: '....';
-    }
-    .p-100 {
-        padding: 25px 20px;
-    }
-    .subscribe {
-        padding: 15px;
-        text-align: center;
-    }
-    .text-end {
-        text-align: center !important;
-    }
-    .w-35 {
-        text-align: center;
-        width: 100%;
-    }
-    .feed-back-arrow {
-        visibility: hidden;
-    }
-    .connected {
-        display: none;
-    }
-    .p-30 {
-        padding: 30px;
-    }
+a {
+    text-decoration: none;
 }
 
 
@@ -132,12 +67,7 @@
 
 
 @media only screen and (max-width: 699px) {
-    .carousel-control-prev {
-        display: none;
-    }
-    .carousel-control-next {
-        display: none;
-    }
+
     .carousel-item {
         height: 220px;
     }
@@ -159,7 +89,7 @@
         font-size: 12px;
     }
     .discover h1 {
-    font-size: 6vw;
+        font-size: 6vw;
     }
     .discover {
         max-width: 90%;
@@ -167,19 +97,13 @@
     .sm-view {
         display: revert;
     }
-    .lg-view {
-        display: none;
-    }
-    .courses:nth-last-child(-n+3) {
-        display: none;
-    }
     .sm-view:focus .courses:nth-last-child(-n+3) {
         display: revert;
     }
     .card-p {
         padding: 0;
     }
-    .text-hidden {
+    .text-hidden, .connected, .courses:nth-last-child(-n+3), .lg-view, .carousel-control-prev, .carousel-control-next {
         display: none;
     }
     .see-more {
@@ -195,11 +119,10 @@
         padding: 15px;
         text-align: center;
     }
-    .text-end {
+    .text-end, .w-35 {
         text-align: center !important;
     }
     .w-35 {
-        text-align: center;
         width: 100%;
     }
     .section-title {
@@ -207,9 +130,6 @@
     }
     .feed-back-arrow {
         visibility: hidden;
-    }
-    .connected {
-        display: none;
     }
     .p-30 {
         padding: 30px;
@@ -225,11 +145,8 @@
 
 
 @media only screen and (min-width: 700px) and (max-width:1023px) {
-    .display-3 {
+    .display-3, .discover h1 {
         font-size: 5vw;
-    }
-    .discover h1 {
-    font-size: 5vw;
     }
     .top-25 {
         top: 15%;
@@ -237,29 +154,14 @@
     .discover {
         max-width: 60%;
     }
-    .sm-view {
+    .sm-view, .see-more {
         display: revert;
     }
-    .sm-view.tab-none {
-        display: none;
-    }
-    .lg-view {
-        display: none;
-    }
-    .courses:nth-last-child(-n+3) {
+    .sm-view.tab-none, .lg-view, .courses:nth-last-child(-n+3), .text-hidden, .connected {
         display: none;
     }
     .card-p {
         padding: 0;
-    }
-    .text-hidden {
-        display: none;
-    }
-    .text-hidden {
-        display: none;
-    }
-    .see-more {
-        display: revert;
     }
     .banner-content {
         padding: 0 40px;
@@ -289,9 +191,6 @@
     .feed-back-arrow {
         visibility: hidden;
     }
-    .connected {
-        display: none;
-    }
     .p-60 {
         padding: 60px;
     }
@@ -318,15 +217,5 @@
         display: none;
     }
     
-    
-}
-
-/*--------------------------------- 
-            4K Devices 
-----------------------------------*/
-
-
-
-@media only screen and (min-width: 1700px) {
     
 }
