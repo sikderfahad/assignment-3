@@ -1,10 +1,69 @@
 .top-25 {
     top: 25%;
 }
+.discover h1 {
+    font-size: 3rem;
+}
+.discover {
+    max-width: 37%;
+}
+.btn-primary {
+    background: #289BDE;
+}
+.text-primary {
+     color: #289BDE !important;
+}
+.bg-register {
+    background: #289BDE;
+}
+.sm-view {
+    display: none;
+}
+.banner-bg {
+    background: #F4FAFD;
+}
+.card-p {
+    padding: 0px 90px;
+}
+.see-more {
+    display: none;
+}
+.tab-none {
+    display: revert;
+}
+.w-35 {
+    width: 42%;
+}
+.subscribe p {
+    font-size: .7rem;
+}
+.p-100 {
+    padding: 100px;
+}
+.star-fill {
+    color: gold;
+}
+.star-empty {
+    color: gold;
+}
+.fa-chevron-circle-right {
+    right: -23px;
+}
+.fa-arrow-alt-circle-left {
+    left: -23px;
+}
+.social-link {
+    font-size: 30px;
+    margin-left: .5rem;
+}
+.p-130 {
+    padding: 130px;
+}
 
 
-
-
+/*--------------------------------- 
+        Extra Small Devices 
+----------------------------------*/
 
 
 @media only screen and (max-width: 260px) {
@@ -14,7 +73,62 @@
     .carousel-control-next {
         display: none;
     }
+    .discover {
+        max-width: 90%;
+    }
+    .sm-view {
+        display: revert;
+    }
+    .lg-view {
+        display: none;
+    }
+    .courses:nth-last-child(-n+3) {
+        display: none;
+    }
+    .sm-view:focus .courses:nth-last-child(-n+3) {
+        display: revert;
+    }
+    .card-p {
+        padding: 0;
+    }
+    .text-hidden {
+        display: none;
+    }
+    .see-more {
+        display: revert;
+    }
+    .see-more::before {
+        content: '....';
+    }
+    .p-100 {
+        padding: 25px 20px;
+    }
+    .subscribe {
+        padding: 15px;
+        text-align: center;
+    }
+    .text-end {
+        text-align: center !important;
+    }
+    .w-35 {
+        text-align: center;
+        width: 100%;
+    }
+    .feed-back-arrow {
+        visibility: hidden;
+    }
+    .connected {
+        display: none;
+    }
+    .p-30 {
+        padding: 30px;
+    }
 }
+
+
+/*--------------------------------- 
+         Mobile Devices 
+----------------------------------*/
 
 
 @media only screen and (max-width: 699px) {
@@ -44,22 +158,173 @@
     .carousel-caption p {
         font-size: 12px;
     }
+    .discover h1 {
+    font-size: 6vw;
+    }
+    .discover {
+        max-width: 90%;
+    }
+    .sm-view {
+        display: revert;
+    }
+    .lg-view {
+        display: none;
+    }
+    .courses:nth-last-child(-n+3) {
+        display: none;
+    }
+    .sm-view:focus .courses:nth-last-child(-n+3) {
+        display: revert;
+    }
+    .card-p {
+        padding: 0;
+    }
+    .text-hidden {
+        display: none;
+    }
+    .see-more {
+        display: revert;
+    }
+    .see-more::before {
+        content: '....';
+    }
+    .p-100 {
+        padding: 25px 20px;
+    }
+    .subscribe {
+        padding: 15px;
+        text-align: center;
+    }
+    .text-end {
+        text-align: center !important;
+    }
+    .w-35 {
+        text-align: center;
+        width: 100%;
+    }
+    .section-title {
+        width: 100% !important;
+    }
+    .feed-back-arrow {
+        visibility: hidden;
+    }
+    .connected {
+        display: none;
+    }
+    .p-30 {
+        padding: 30px;
+    }
 }
+
+
+
+/*--------------------------------- 
+         Tablet Devices 
+----------------------------------*/
+
 
 
 @media only screen and (min-width: 700px) and (max-width:1023px) {
     .display-3 {
         font-size: 5vw;
     }
+    .discover h1 {
+    font-size: 5vw;
+    }
+    .top-25 {
+        top: 15%;
+    }
+    .discover {
+        max-width: 60%;
+    }
+    .sm-view {
+        display: revert;
+    }
+    .sm-view.tab-none {
+        display: none;
+    }
+    .lg-view {
+        display: none;
+    }
+    .courses:nth-last-child(-n+3) {
+        display: none;
+    }
+    .card-p {
+        padding: 0;
+    }
+    .text-hidden {
+        display: none;
+    }
+    .text-hidden {
+        display: none;
+    }
+    .see-more {
+        display: revert;
+    }
+    .banner-content {
+        padding: 0 40px;
+    }
+    .banner-content h1 {
+        font-size: 1.5rem;
+    }
+    .banner-content p {
+        font-size: .7rem;
+    }
+    .see-more::before {
+        content: '....';
+    }
+    .p-100 {
+        padding: 40px 175px;
+        text-align: center;
+    }
+    .text-end {
+        text-align: center !important;
+    }
+    .w-35 {
+        width: 70%;
+    }
+    .section-title {
+        width: 85% !important;
+    }
+    .feed-back-arrow {
+        visibility: hidden;
+    }
+    .connected {
+        display: none;
+    }
+    .p-60 {
+        padding: 60px;
+    }
+    
 }
+
+/*--------------------------------- 
+        Small Laptop Devices 
+----------------------------------*/
+
 
 
 @media only screen and (min-width: 1024px) and (max-width:1280px) {
     .w-50 {
         width: 60% !important;
     }
+    .discover {
+        max-width: 50%;
+    }
+    .card-p {
+        padding: 0;
+    }
+    .connected {
+        display: none;
+    }
+    
     
 }
+
+/*--------------------------------- 
+            4K Devices 
+----------------------------------*/
+
 
 
 @media only screen and (min-width: 1700px) {
